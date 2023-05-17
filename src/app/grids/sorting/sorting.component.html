@@ -1,0 +1,51 @@
+
+
+<igx-grid #grid1 [data]="localData"
+ [autoGenerate]="false" 
+ (columnInit)="onColumnInit($event)" width="960px" height="550px">
+  <igx-paginator></igx-paginator>
+
+  <igx-column
+  header="Employee ID"
+  field="EmployeeID"
+ >
+
+  </igx-column>
+
+  <igx-column
+  header="Last Name"
+  field="LastName"
+  [sortable]="true">
+
+  </igx-column>
+
+  <igx-column
+  header="First Name"
+  field="FirstName">
+
+  </igx-column>
+  <igx-column
+  header="Country"
+  field="Country"
+  [sortable]="true">
+
+  </igx-column>
+  <igx-column
+  header="Age"
+  field="Age"
+  [dataType]="'number'"
+  [sortable]="true">
+
+  </igx-column>
+  <igx-column
+  header="Registerer Date"
+  field="RegistererDate"
+  [dataType]="'date'">
+
+  </igx-column>
+  <igx-column
+  header="is Active"
+  field="IsActive">
+
+  </igx-column>
+</igx-grid>

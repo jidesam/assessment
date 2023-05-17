@@ -1,0 +1,48 @@
+.icon{
+    width: 20px;
+    height:20px;
+}
+
+.mr{
+    margin-right: 300px;
+}
+
+.icon2{
+   
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.icon-body{
+    width: 30px;
+    height: 30px;
+}
+
+.gap-main{
+    gap: 15px;
+}
+.rounde-blue-border {
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+.nav-bottom {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.body-container {
+    height: 100vh;
+}
+@media only screen and (min-width:500px){
+    .body-container {
+        width: 500px;
+        margin: auto;
+        height: 100vh;
+
+    }
+}
