@@ -9,27 +9,27 @@ import { Component } from '@angular/core';
 export class SettingsComponent {
   settings=[
     {
-      image: 'images/assets/app-usage.svg',
+      image: 'assets/images/app-usage.svg',
       content: 'App usage problem',
-      forwardArr: 'images/assets/forward.svg',
+      forwardArr: 'assets/images/forward.svg',
       alt:'App usage problem image'
     },
     {
-      image: 'images/assets/features.svg',
+      image: 'assets/images/features.svg',
       content: 'Features',
-      forwardArr: 'images/assets/forward.svg',
+      forwardArr: 'assets/images/forward.svg',
       alt: 'feature Image'
     },
     {
-      image: 'images/assets/lock-installation.svg',
+      image: 'assets/images/lock-installation.svg',
       content: 'Lock Installation',
-      forwardArr: 'images/assets/forward.svg',
+      forwardArr: 'assets/images/forward.svg',
       alt: 'Normal troubleshooting'
     },
     {
-      image: 'images/assets/normal-trouble-shooting.svg',
+      image: 'assets/images/normal-trouble-shooting.svg',
       content: 'Normal Troubleshooting',
-      forwardArr: 'images/assets/forward.svg',
+      forwardArr: 'assets/images/forward.svg',
       alt: 'lock installation image'
     },
    
